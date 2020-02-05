@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "axios": "^0.18",
+    "bootstrap": "^4.0.0",
+    "cross-env": "^5.1",
+    "jquery": "^3.2",
+    "laravel-mix": "^2.0",
+    "lodash": "^4.17.4",
+    "popper.js": "^1.12",
+    "tailwindcss": "^0.6.1",
+    "vue": "^2.5.7"
+  },
+  "dependencies": {
+    "lightbox2": "^2.10.0",
+    "moment": "^2.22.2",
+    "nprogress": "^0.2.0",
+    "postcss-import": "^11.1.0",
+    "select2": "^4.0.6-rc.1",
+    "toastr": "^2.1.4",
+    "vue-moment": "^3.2.0",
+    "vue-multiselect": "^2.1.0",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^4.1.0",
+    "vue2-admin-lte": "^0.4.3",
+    "vue2-bootstrap-modal": "^0.1.15",
+    "vue2-editor": "^2.6.6",
+    "vuejs-datepicker": "^0.9.29",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "vuex": "^3.0.1"
+  }
+}

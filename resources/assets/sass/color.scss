@@ -1,0 +1,67 @@
+.navbar {
+  background: #444;
+}
+.navbar-header .navbar-brand { 
+	color: #fff;
+}
+.nav > li > a {
+	color: #fff;
+}
+.nav > li > a:hover {
+	color: cyan;
+}
+.social-link > li > a > i.fa {
+	background: #fff;
+	color: #000;
+}
+.social-link > li > a > i.fa:hover {
+	color: #fff;
+}
+i.fa.fa-facebook:hover {
+    background: #3b5998;
+}
+i.fa.fa-twitter:hover {
+    background: #1da1f2;;
+}
+i.fa.fa-whatsapp:hover {
+    background: #47ad44;
+}
+.nav-logo > h1 > a {
+	color: #f00;
+}
+.its_social_list > li > a {
+	color: #fff;
+}
+span.fa.fa-facebook, span.fa.fa-twitter {
+    border-right: 1px solid #000;
+}
+.its_social_list li a :hover {
+    color: #000;
+}
+.banner-grid1 {
+	background: rgba(76, 175, 80, 0.79);
+	color: #fff;
+}
+.banner-grid1 > a {
+	color: #fff;
+}
+.slider-info h4 {
+	color: #fff;
+}
+.banner-grid1 a,
+.banner-grid2 a, 
+.banner-grid3 a {
+    color: #fff;
+}
+.banner-grid1 h3, .banner-grid2 h3, .banner-grid3 h3 {
+    font-size: 1.3em;
+    line-height: 1.4em;
+    padding: 1em 1em 2em;
+    font-weight: normal;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.banner-grid1:hover,
+.banner-grid2:hover, 
+.banner-grid3:hover {
+    background: rgba(0, 0, 0, 0.44);
+}

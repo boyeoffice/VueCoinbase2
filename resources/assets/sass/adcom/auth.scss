@@ -1,0 +1,32 @@
+body {
+	background-color: #FFFFFF;
+}
+body .login-page {
+	overflow: hidden;
+}
+.login-page .wrapper {
+	margin-top: 5rem;
+}
+.adcom-logo {
+	position: relative;
+	width: 5rem;
+	margin: auto;
+}
+.adcom-logo a img {
+	width: 100%
+}
+.login-form {
+	margin-top: 2rem;
+}
+.login-page .wrapper .card {
+	border: 2px solid rgba(0,0,0,0.14);
+	box-shadow: rgba(0,0,0,0.14);
+    border-radius: 8px;
+}
+.footer-link {
+	color: #212529;
+	text-transform: uppercase;
+}
+.footer-link:focus, .footer-link:hover {
+	color: #212529;
+}
